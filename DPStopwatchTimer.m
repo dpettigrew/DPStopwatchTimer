@@ -62,7 +62,6 @@
 
 - (void)pauseTiming {
     if (!_isPaused) {
-        [self updateTime];
         _previousElapsedTime = _elapsedTime;
         _previousLapTime = _lapTime;
         _isPaused = YES;
